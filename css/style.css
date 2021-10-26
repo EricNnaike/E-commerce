@@ -39,15 +39,21 @@ body{
 
 .header .nav-con .navbar li{
     padding: 10px 10px;
+    transition: transform 0.3s ease-out;
+}
+.header .nav-con .navbar li:hover{
+    transform: translateY(8px);
 }
 .nav-con .navbar li a{
     text-decoration: none;
     font-size: 16px;
     color: rgb(165, 163, 163);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .nav-con .navbar li a:hover{
     color: rgb(241, 117, 0);
+    
 }
 .header .otm{
     display: flex;
@@ -125,7 +131,7 @@ body{
     color: white;
 }
 .overlay a:hover, .overlay a:focus{
-    color: rgb(241, 117, 0);
+    color: black;
 }
 .closebtn{
     position: absolute;
